@@ -51,4 +51,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    //Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.moshi)
+    //OkHttp Interceptor
+    implementation(libs.okhttp.logging.interceptor)
+    // Moshi
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
 }
